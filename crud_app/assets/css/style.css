@@ -209,3 +209,23 @@ table{
     border-color: #b4b4b4;
     background:#b4b4b4;
 }
+
+#update_user .form-group .btn,
+#add_user .form-group .btn{
+    width: 100%;
+    padding:.9em 1em;
+    background-color: #06d6a0;
+    border:none;
+    font-family: 'PT sans', sans-serif;
+    font-size:1em;
+    cursor: pointer;
+    border-radius: .2em;
+    margin:.5em 0;
+}
+
+#update_user .form-group .btn:hover,
+#add_user .form-group .btn:hover{
+    background-color: var(--dark);
+    color: var(--border);
+}
+

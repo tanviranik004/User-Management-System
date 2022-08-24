@@ -31,4 +31,10 @@ app.get('/', (req, res) => {
     //res.send("I fuck Love");
 })
 
+app.get('/add-user', (req, res) => {
+
+    res.render('add_user');
+    //res.send("I fuck Love");
+})
+
 app.listen(PORT,()=> {console.log(`Server is running on http://localhost:${PORT}`)});
