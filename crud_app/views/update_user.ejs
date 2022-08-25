@@ -1,6 +1,22 @@
+<!--include header-->
+<%- include('include/_header')%>
+<!--/include header-->
 
+  <!--Main Section Start -->
+  <main id="site-main">
+    <div class="container">
+        <div class="box-nav d-flex justify-between">
+            <div class="filter">
+                <a href="/"><i class="fas fa-angle-double-left"></i>All Users</a>
+            </div>
+        </div>
+        <div class="form-title text-center">
+            <h2 class="text-dark">Update User</h2>
+            <span class="text-light">Use the below form to Update an account</span>
+        </div>
+           
         <!-- form handling start -->
-        <form method="POST" id="add_user">
+        <form method="POST" id="update_user">
             <div class="new_user">
              <div class="form-group">
                  <label for="name" class="text-light">Name</label>
@@ -39,3 +55,10 @@
             </div>
           </form>
          <!-- form handling End -->
+    </div>
+</main>
+<!--Main Section End -->
+
+<!--include footer-->
+<%- include('include/_footer')%>
+<!--/include footer-->

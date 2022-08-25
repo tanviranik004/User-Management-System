@@ -82,26 +82,31 @@ a {
 }
 
 #site-main .container form{
-    margin: 2rem 0;
+    margin: 2em 0;
 }
 
 table{
-    border-spacing: 15px;
-    width: 45%;
+    /* border-spacing: 15px;
+    width: 45%; */
+    border-spacing: 0px;
+    width: 100%;
 }
 
-.table td, .table th{
-    
-        padding: 15px;
+.table td,.table th{
+        padding: .75em;
+        /* padding: 15px; */
         vertical-align:top;
         text-align: center;
         border-top: 1px solid var(--border); 
     
 }
 .table td>a.btn{
-    padding: 1.5em 1em;
-    font-size: .30em;
-    margin:0.2em;
+    /* padding: 1.5em 1em; */
+    padding: .3em 1em;
+    /* font-size: .30em; */
+    font-size: 1.1em;
+    /* margin:0.2em; */
+    margin:0 .2em;
 }
 .table tr:hover{
     background-color:#06d6a0;
@@ -129,7 +134,7 @@ table{
 
     td{
         border:none;
-        border-bottom:1px solid var(--border);
+        /* border-bottom:1px solid var(--border); */
         position: relative;
     }
     
